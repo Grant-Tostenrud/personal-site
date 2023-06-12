@@ -1,0 +1,32 @@
+.gradient-background {
+  /* background: linear-gradient(300deg, #4636FC, #5170FD, #60ABFB);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite; */
+  background-color: #4636FC;
+}
+h1 {
+  color: white;
+}
+.title {
+  color: white;
+}
+
+.footer-text {
+  color: rgb(209, 207, 207);
+}
+
+li {
+  list-style-type: none
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
